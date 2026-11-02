@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "preset": {
+    "id": "my-preset",
+    "name": "My Preset",
+    "version": "1.0.0",
+    "description": "Custom template and command overrides",
+    "author": "Your Name",
+    "repository": "https://github.com/your-org/project-preset",
+    "license": "MIT"
+  },
+  "requires": {
+    "toolkit_version": ">=0.1.0"
+  },
+  "provides": {
+    "templates": [
+      {
+        "type": "template",
+        "name": "spec-template",
+        "file": "templates/spec-template.md",
+        "description": "Custom feature specification template",
+        "replaces": "spec-template"
+      },
+      {
+        "type": "template",
+        "name": "myext-template",
+        "file": "templates/myext-template.md",
+        "description": "Override myext's report template",
+        "replaces": "myext-template"
+      },
+      {
+        "type": "command",
+        "name": "lanyant.specify",
+        "file": "commands/lanyant.specify.md",
+        "description": "Custom specification command",
+        "replaces": "lanyant.specify"
+      },
+      {
+        "type": "command",
+        "name": "lanyant.myext.myextcmd",
+        "file": "commands/lanyant.myext.myextcmd.md",
+        "description": "Override myext's myextcmd command with custom workflow",
+        "replaces": "lanyant.myext.myextcmd"
+      }
+    ]
+  },
+  "tags": [
+    "example",
+    "preset"
+  ]
+}

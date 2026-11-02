@@ -1,0 +1,35 @@
+source:
+  location_id: ""
+  triage_identity: ""
+  operations_location_id: ""
+repository:
+  url: ""
+  default_branch: ""
+tracker:
+  adapter: ""
+  team: ""
+  project: ""
+  intake_status: ""
+  labels: []
+routing:
+  map_path: ""
+  allow_owner_mentions: false
+reproduction:
+  control_adapter: ""
+  feature_map_path: ""
+  max_fix_attempts: 2
+  draft_pr_authorized: false
+markers:
+  bug: "[intake:bug]"
+  performance: "[intake:performance]"
+  other: "[intake:other]"
+budgets:
+  follow_up_minutes: 10
+  triage_minutes: 15
+  reproduction_minutes: 30
+models:
+  triage: ""
+  reproduction: ""
+  implementation: ""
+  media: ""
+# Secret values belong in the host secret manager or environment.
