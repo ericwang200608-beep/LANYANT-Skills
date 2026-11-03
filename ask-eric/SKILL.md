@@ -49,7 +49,7 @@ Stage skills call these when a trigger occurs. Each runs a complete procedure wi
 |---|---|
 | Building or fixing business logic, permissions, money, quantities, state, or concurrency; any bug with a correct test seam | [test-driven-development](../test-driven-development/SKILL.md) |
 | A fault is hard to locate, intermittent, regressed, or reported by someone else; a production incident after containment; a captured trace or profile to read | [bug-diagnosis](../bug-diagnosis/SKILL.md) |
-| A branch, PR, or diff needs review against standards and requirements | [code-review](../code-review/SKILL.md) |
+| A branch, PR, or diff needs review against standards and requirements | [standards-spec-review](../standards-spec-review/SKILL.md) |
 | A finished or contested change must be attacked, its blast radius proven, comments audited, or bot review comments triaged | [adversarial-review](../adversarial-review/SKILL.md) |
 | Something is slow, a benchmark number is quoted, or a metric must be improved by iteration | [performance-investigation](../performance-investigation/SKILL.md) |
 | Structure must change while behavior stays, the architecture needs an improvement review, an interface migration, or visual parity | [refactoring](../refactoring/SKILL.md) |

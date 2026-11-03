@@ -12,7 +12,7 @@ Read when the work arrives as one ticket, one spec, or a plan just agreed in the
 | Only in the conversation just held, and still small | Implement in the same session. State that the plan lives in the thread so you do not hunt for a file that does not exist. |
 | Not written down anywhere yet | Clarify it first with [business-discovery](../../business-discovery/SKILL.md) or [technical-design](../../technical-design/SKILL.md). |
 | One concrete behavior wanted test-first, with no spec | Use [test-driven-development](../../test-driven-development/SKILL.md) directly. |
-| Already built, and it needs checking | Use [code-review](../../code-review/SKILL.md) directly. |
+| Already built, and it needs checking | Use [standards-spec-review](../../standards-spec-review/SKILL.md) directly. |
 | A whole spec or ready frontier in one run | Use [multi-agent-delivery](../../multi-agent-delivery/SKILL.md): each ready ticket goes to its own isolated agent in its own worktree, merged onto one integration branch. |
 
 ## 2. Prerequisites
@@ -30,7 +30,7 @@ A run has five steps, in order:
 2. Drive [test-driven-development](../../test-driven-development/SKILL.md) at the pre-agreed seams, one red-green slice at a time (the cycle in [section 3 of the skill](../SKILL.md#3-complete-one-red-to-green-cycle-at-a-time)).
 3. Run the type checker often and run the single affected test file as you go.
 4. Run the full test suite once, at the end.
-5. Review with [code-review](../../code-review/SKILL.md), then commit to the current branch when commits are in scope.
+5. Review with [standards-spec-review](../../standards-spec-review/SKILL.md), then commit to the current branch when commits are in scope.
 
 One run covers one ticket. Tickets are vertical slices sized to fit one fresh context window, so the rhythm is: clear context, implement one ticket, commit, clear again. Each ticket is self-contained; discard the previous ticket's context.
 

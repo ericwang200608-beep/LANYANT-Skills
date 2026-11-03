@@ -1,6 +1,6 @@
 ---
 name: session-continuity
-description: Resume a prior session, reconstruct recent project context, pause safely on request, hand off to a fresh agent, audit a decision trail, or catch the user up in text or video. Preserve existing evidence and the exact authorized resume point.
+description: Resume a prior session, reconstruct recent project context, pause safely on request, hand off to a fresh agent, audit a decision trail, or catch the user up in text or video. Preserve existing evidence and the exact authorized resume point. Use for "pick up where we left off", "what happened last session", "catch me up", "pause here", "hand this off", "write a handoff", or when resuming interrupted or transferred work.
 ---
 
 # Session continuity

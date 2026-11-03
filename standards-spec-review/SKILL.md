@@ -1,5 +1,5 @@
 ---
-name: code-review
+name: standards-spec-review
 description: Two-axis review of the changes since a fixed point (commit, branch, tag, merge-base, or the working tree) on Standards (does the code follow this repository's documented coding standards, design documents, and the smell baseline?) and Spec (does the code do what the originating issue or specification asked for?), each run by a fresh independent agent and reported side by side without merging or reranking. Use when the user asks to review a branch, a PR, work in progress, "review since X", "is this built right and is it the right thing", or when another LANYANT skill calls for a standards-and-spec review of a diff. Not for hunting runtime bugs by breaking the change (use adversarial-review) or for full system verification with executed scenarios (use system-verification).
 ---
 

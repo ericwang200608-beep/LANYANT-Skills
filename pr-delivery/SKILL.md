@@ -42,7 +42,7 @@ The bundled reader supports github.com. Its `gh` child processes pin `GH_HOST=gi
 ## Inputs to read
 
 1. The requirement, task, or issue the change serves, and its acceptance criteria. The door call in Merge Danger depends on it, not only on the diff.
-2. The diff against its base, the commit list, and the review result from [code-review](../code-review/SKILL.md).
+2. The diff against its base, the commit list, and the review result from [standards-spec-review](../standards-spec-review/SKILL.md).
 3. Project conventions: `CONTRIBUTING.md`, `.github/pull_request_template.md` (or the forge equivalent), the agent instructions file, recent merged PRs for title and draft style, branch protection and required checks, the project glossary for domain language, and any list of changes the project always treats as one-way doors.
 4. The delivery record that holds task state and evidence. Update it; never create a competing tracker.
 5. The authorization in force: may you push, open PRs, comment, resolve threads, re-run CI, force-push your own branch, merge? Record what is and is not granted before the first forge action.

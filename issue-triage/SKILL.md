@@ -1,6 +1,6 @@
 ---
 name: issue-triage
-description: Classify incoming issues, external pull requests, or source-thread reports, verify their claims, deduplicate, map labels, and write agent-ready briefs. Includes safe recurring intake setup and owner routing.
+description: Classify incoming issues, external pull requests, or source-thread reports, verify their claims, deduplicate, map labels, and write agent-ready briefs. Includes safe recurring intake setup and owner routing. Use for "triage these issues", "go through the backlog", "is this a duplicate", "review this external PR", sorting bug reports or feature requests from GitHub, GitLab, Slack, or email, or setting up recurring intake. Not for already-defined implementation tasks.
 ---
 
 # Triage

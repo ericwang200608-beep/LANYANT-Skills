@@ -90,7 +90,7 @@ Rules that apply across cycles:
 
 - **Red before green.** No production change for a mandatory behavior without a test that has been seen failing for the right reason.
 - **One slice at a time.** One seam, one test, one minimal implementation per cycle.
-- **Refactoring is not part of the loop.** It belongs to the review stage ([code-review](../code-review/SKILL.md)) or to a scheduled structural change ([refactoring](../refactoring/SKILL.md)), not to the red to green cycle. Do structural work only when the task schedules it.
+- **Refactoring is not part of the loop.** It belongs to the review stage ([standards-spec-review](../standards-spec-review/SKILL.md)) or to a scheduled structural change ([refactoring](../refactoring/SKILL.md)), not to the red to green cycle. Do structural work only when the task schedules it.
 - If you forced a red by mutating code or a fixture, `diff` against a pristine copy to prove the mutation landed before you trust the red.
 - If a test expectation contradicts the requirements, check its basis and raise the discrepancy with the owner. Never manufacture a pass.
 

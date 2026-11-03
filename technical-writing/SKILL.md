@@ -1,6 +1,6 @@
 ---
 name: technical-writing
-description: Write or edit technical docs, RFCs, instructions, PR descriptions, or commit messages with clear structure, precise terms, and plain prose. Also restates goals, simplifies the last response, and supports explicitly requested collaborative long-form writing.
+description: Write or edit technical docs, RFCs, instructions, PR descriptions, or commit messages with clear structure, precise terms, and plain prose. Also restates goals, simplifies the last response, and supports explicitly requested collaborative long-form writing. Use for "write the docs", "draft an RFC", "edit this README", "write a commit message", "make this clearer", "tl;dr", or any prose for people. For the full PR open-and-merge workflow use pr-delivery.
 ---
 
 # Technical writing

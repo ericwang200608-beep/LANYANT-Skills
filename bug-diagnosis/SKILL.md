@@ -1,6 +1,6 @@
 ---
 name: bug-diagnosis
-description: Diagnose broken behavior, errors, hangs, intermittent failures, or regressions with a measured reproduction loop, ranked hypotheses, root-cause proof, regression tests, and cleanup. Includes incident recovery and runtime or trace forensics.
+description: Diagnose broken behavior, errors, hangs, intermittent failures, or regressions with a measured reproduction loop, ranked hypotheses, root-cause proof, regression tests, and cleanup. Includes incident recovery and runtime or trace forensics. Use when something "is broken", "throws", "hangs", "fails sometimes", "worked yesterday", a test is flaky, a user reports a bug, or a production incident needs root cause after containment. Not for slowness without a fault (use performance-investigation).
 ---
 
 # Diagnosing Bugs

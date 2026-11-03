@@ -16,7 +16,7 @@ Adversaries try to break a change or a design. A finding survives only when a ru
 | Comments that narrate, justify workarounds, or claim `do not remove` | [C. Comment audit](#c-comment-audit) |
 | Bot or automated review comments on a PR | [D. Automated-review triage](#d-automated-review-triage) |
 
-For a standards-and-spec review use [code-review](../code-review/SKILL.md). For a failure you can already see use [bug-diagnosis](../bug-diagnosis/SKILL.md).
+For a standards-and-spec review use [standards-spec-review](../standards-spec-review/SKILL.md). For a failure you can already see use [bug-diagnosis](../bug-diagnosis/SKILL.md).
 
 ## Inputs to read
 

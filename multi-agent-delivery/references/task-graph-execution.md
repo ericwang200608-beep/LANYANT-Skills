@@ -52,7 +52,7 @@ When the task record marks tasks as parallelizable (for example `[P]`), a task m
 
 6. **If the merge changes the frontier of available tasks, start more implementer subagents on the new tasks.** This allows maximum concurrency. Mark the completed task in the task record when authorization covers that write; otherwise list it as complete in your report. Account for every implementer you spawned as merged, replaced, or blocked.
 
-7. **Once all tasks are complete, run [code-review](../../code-review/SKILL.md) on the integration branch** against the base, in fresh independent contexts. Fix every issue the review raises in a single fresh implementer subagent with a consolidated brief (the review findings, the specification, the branch), merged by the merger as in step 5.
+7. **Once all tasks are complete, run [standards-spec-review](../../standards-spec-review/SKILL.md) on the integration branch** against the base, in fresh independent contexts. Fix every issue the review raises in a single fresh implementer subagent with a consolidated brief (the review findings, the specification, the branch), merged by the merger as in step 5.
 
 8. **Run final integration verification on the integration branch head.** See [Final integration verification](#final-integration-verification). Fix failures with a fresh implementer and repeat from step 5 for that fix.
 

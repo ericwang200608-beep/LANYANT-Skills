@@ -297,6 +297,9 @@ def _upsert_section(
 
 def main(argv: list[str] | None = None) -> int:
     args = sys.argv[1:] if argv is None else argv
+    if args and args[0] in ("-h", "--help"):
+        print("Usage: update_agent_context.py [plan_path]")
+        return 0
     project_root = os.getcwd()
     config_dir = Path(project_root) / ".lanyant/extensions/agent-context"
     json_config = config_dir / "agent-context-config.json"

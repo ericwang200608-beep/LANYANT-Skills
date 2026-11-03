@@ -25,7 +25,7 @@ A request for a refactor plan as a document is covered by the architecture revie
 - The affected subsystem's code, tests, and callers. Use [codebase-investigation](../codebase-investigation/SKILL.md) to learn how it works and why it is shaped this way.
 - The project's glossary (`GLOSSARY.md` or equivalent) and ADRs in the area (`docs/adr/` or equivalent). Do not re-litigate a recorded decision without saying so.
 - The architecture vocabulary in [technical-design](../technical-design/SKILL.md#3-design-modules-and-interfaces): module, interface, implementation, depth, seam, adapter, the deletion test, "the interface is the test surface", "one adapter means a hypothetical seam, two adapters mean a real one". Two more terms used here: **leverage** is what callers get from depth (more capability per unit of interface; one implementation pays back across N call sites and M tests); **locality** is what maintainers get from depth (change, bugs, knowledge, and verification concentrate in one place).
-- The smell baseline in [code-review](../code-review/references/smell-baseline.md) for naming what is wrong.
+- The smell baseline in [standards-spec-review](../standards-spec-review/references/smell-baseline.md) for naming what is wrong.
 - Every consumer of any interface you will change: in this repository, in other repositories, published packages, public APIs, stored data, and configuration.
 
 ## Procedure: behavior-pinned refactor

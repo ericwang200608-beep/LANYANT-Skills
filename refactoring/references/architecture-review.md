@@ -28,7 +28,7 @@ Then spawn a fresh read-only agent to walk the codebase (map the operation throu
 - Where do tightly-coupled modules leak across their seams?
 - Which parts of the codebase are untested, or hard to test through their current interface?
 
-Apply the **deletion test** to anything suspected to be shallow: would deleting it concentrate complexity, or just move it? A "yes, concentrates" is the signal you want. The smell baseline in [code-review](../../code-review/references/smell-baseline.md) helps name what the agent finds.
+Apply the **deletion test** to anything suspected to be shallow: would deleting it concentrate complexity, or just move it? A "yes, concentrates" is the signal you want. The smell baseline in [standards-spec-review](../../standards-spec-review/references/smell-baseline.md) helps name what the agent finds.
 
 When agent spawning is not available, walk the codebase yourself in a separate pass and record "exploration agent not available; explored in the main context" per [operating rules section 4](../../ask-eric/references/operating-rules.md#4-capability-gaps-are-blockers-not-silent-downgrades). Check the agent's findings against the files before putting them in the report.
 
