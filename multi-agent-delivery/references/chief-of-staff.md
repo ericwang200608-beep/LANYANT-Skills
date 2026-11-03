@@ -46,7 +46,7 @@ The wiki is a historical record. It never claims to describe how things are now,
 
 Some procedures you run live in other skills, installed beside this one. To run one, read its `SKILL.md` at the path below, relative to this skill's directory, and follow it.
 
-- **Retro** (`../../process-improvement/SKILL.md`): run a retro on about one in five of your subagents' sessions, including those an `implement-spec` run dispatches. Pick first the ones where something went wrong. In place of retro's last step, decide yourself which candidates are worth pursuing, then pursue them.
+- **Retro** (`../../process-improvement/SKILL.md`): run a retro on about one in five of your subagents' sessions, including those a [task-graph execution](task-graph-execution.md) run dispatches. Pick first the ones where something went wrong. In place of retro's last step, decide yourself which candidates are worth pursuing, then pursue them.
 - **Large chunks of work**: write a spec with `../../business-discovery/SKILL.md`, break it into tickets with `../../delivery-planning/SKILL.md`, publish both to the issue tracker, then implement them with `../../multi-agent-delivery/SKILL.md`.
 
 ## Strategic View

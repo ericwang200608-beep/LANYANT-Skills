@@ -9,7 +9,7 @@ tools:
 
 <!-- CUSTOMIZE: Replace this entire file with your command documentation -->
 
-This is an example command that demonstrates how to create commands for the project toolkit extensions.
+This is an example command that demonstrates how to create commands for LANYANT extensions.
 
 ## Purpose
 

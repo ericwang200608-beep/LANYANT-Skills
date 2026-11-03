@@ -15,7 +15,7 @@ Process an extension submission issue and add or update it in the community cata
 Read the GitHub issue to extract all metadata:
 - Extension ID, name, version, description, author
 - Repository URL, download URL, homepage, documentation, changelog
-- License, required the project toolkit version, optional tool dependencies
+- License, required LANYANT version, optional tool dependencies
 - Number of commands and hooks
 - Tags
 
@@ -151,7 +151,7 @@ Closes #<issue-number>"
 git push origin <branch-name>
 ```
 
-Then create a PR to `upstream` (`github/the project toolkit`) with:
+Resolve the authorized target catalog repository and its base branch from the current project context. Do not assume an upstream owner or remote. Then create a PR with:
 - **Title:** `Add <Name> extension to community catalog` (or `Update <Name> extension to v<version>`)
 - **Body:** Include validation summary, `Closes #<issue-number>`, and `cc @<issue-author>`
 - **Head:** `<fork-owner>:<branch-name>`

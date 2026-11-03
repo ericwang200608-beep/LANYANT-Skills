@@ -69,8 +69,8 @@ def _collect_context_files(data: dict, project_root: str) -> list[str]:
     if not context_files:
         # Self-seed: when the config declares no target, derive one from the
         # active integration recorded in init-options.json, mapped through the
-        # bundled agent-context-defaults.json file. Independent of the Specify
-        # CLI by design.
+        # configured agent-context-defaults.json file without requiring
+        # a separate toolkit CLI.
         integration_key = ""
         try:
             with open(

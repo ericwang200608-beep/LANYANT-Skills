@@ -17,14 +17,14 @@ preset:
   author: "Your Name"
 
   # CUSTOMIZE: GitHub repository URL (create before publishing)
-  repository: "https://github.com/your-org/project-toolkit-preset-my-preset"
+  repository: "https://github.com/your-org/lanyant-preset-my-preset"
 
   # REVIEW: License (MIT is recommended for open source)
   license: "MIT"
 
 # Requirements for this preset
 requires:
-  # CUSTOMIZE: Minimum project-toolkit version required
+  # CUSTOMIZE: Minimum lanyant version required
   toolkit_version: ">=0.1.0"
 
 # Templates provided by this preset

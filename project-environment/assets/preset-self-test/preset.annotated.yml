@@ -5,8 +5,8 @@ preset:
   name: "Self-Test Preset"
   version: "1.0.0"
   description: "A preset that overrides all core templates for testing purposes"
-  author: "github"
-  repository: "https://github.com/github/project-toolkit"
+  author: "LANYANT"
+  repository: "https://github.com/ericwang200608-beep/LANYANT-Skills"
   license: "MIT"
 
 requires:

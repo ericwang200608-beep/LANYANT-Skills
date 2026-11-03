@@ -25,6 +25,10 @@
 | 交付与维护 | [pr-delivery](pr-delivery/SKILL.md)、[delivery-proof](delivery-proof/SKILL.md)、[project-release](project-release/SKILL.md)、[project-maintenance](project-maintenance/SKILL.md) |
 | 协作与改进 | [issue-triage](issue-triage/SKILL.md)、[session-continuity](session-continuity/SKILL.md)、[technical-writing](technical-writing/SKILL.md)、[process-improvement](process-improvement/SKILL.md) |
 
+## 使用边界
+
+技能之间通过库内相对路径衔接，无需额外安装同名上游技能。Git、Python、Bun、模型检查工具等运行依赖按对应技能的要求准备。扩展管理器、预设管理器及带有占位符的命令是适配示例，执行前需确认真实工具和配置。
+
 ## 来源与许可
 
 本库包含整合与改编的材料。各目录保留了原有 `LICENSE` 和版权声明，包括 Matt Pocock、Lauren Tan、DietrichGebert 和 GitHub, Inc. 的署名。使用、修改或再分发时，请遵守对应目录的许可并保留要求的声明。

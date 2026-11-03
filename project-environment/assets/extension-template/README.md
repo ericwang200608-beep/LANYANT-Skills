@@ -1,13 +1,15 @@
 # Extension Template
 
-Starter template for creating a the project toolkit extension.
+Starter template for creating a LANYANT extension.
+
+Resolve `<suite>` to the directory containing the LANYANT skills. Manager commands below are adapter examples; bind them to an installed compatible manager before running them. This repository does not include a universal extension or preset installer.
 
 ## Quick Start
 
 1. **Copy this template**:
 
    ```bash
-   cp -r extensions/template my-extension
+   cp -r <suite>/project-environment/assets/extension-template my-extension
    cd my-extension
    ```
 
@@ -31,7 +33,7 @@ Starter template for creating a the project toolkit extension.
 6. **Test locally**:
 
    ```bash
-   cd /path/to/project-toolkit-project
+   cd /path/to/lanyant-project
    <extension-manager> add --dev /path/to/my-extension
    ```
 
@@ -76,4 +78,4 @@ Starter template for creating a the project toolkit extension.
 
 - Version: 1.0.0
 - Last Updated: 2026-01-28
-- Compatible with the project toolkit: >=0.1.0
+- Compatible with LANYANT: >=0.1.0

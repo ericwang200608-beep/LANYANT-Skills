@@ -30,10 +30,10 @@ and this project adheres to  [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ### Requirements
 
-- the project toolkit: >=0.1.0
+- LANYANT: >=0.1.0
 - External dependencies (if any)
 
 ---
 
-[Unreleased]: https://github.com/your-org/project-toolkit-my-extension/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/your-org/project-toolkit-my-extension/releases/tag/v1.0.0
+[Unreleased]: https://github.com/your-org/lanyant-my-extension/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/your-org/lanyant-my-extension/releases/tag/v1.0.0

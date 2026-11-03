@@ -1,6 +1,8 @@
 # My Preset
 
-A custom preset for the project toolkit. Copy this directory and customize it to create your own.
+A custom preset for LANYANT. Copy this directory and customize it to create your own.
+
+Resolve `<suite>` to the directory containing the LANYANT skills. Manager commands below are adapter examples; bind them to an installed compatible manager before running them. This repository does not include a universal extension or preset installer.
 
 ## Templates Included
 
@@ -13,7 +15,7 @@ A custom preset for the project toolkit. Copy this directory and customize it to
 
 ## Development
 
-1. Copy this directory: `cp -r presets/scaffold my-preset`
+1. Copy this directory: `cp -r <suite>/project-environment/assets/preset-scaffold my-preset`
 2. Edit `preset.yml` ,  set your preset's ID, name, description, and templates
 3. Add or modify templates in `templates/`
 4. Test locally: `<preset-manager> add --dev ./my-preset`

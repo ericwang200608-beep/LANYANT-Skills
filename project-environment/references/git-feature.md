@@ -68,7 +68,7 @@ Run the appropriate script based on your platform:
 ## Graceful Degradation
 
 If Git is not installed or the current directory is not a Git repository:
-- Branch creation is skipped with a warning: `[specify] Warning: Git repository not detected; skipped branch creation`
+- Branch creation is skipped with a warning: `[lanyant] Warning: Git repository not detected; skipped branch creation`
 - The script still outputs `BRANCH_NAME` and `FEATURE_NUM` so the caller can reference them
 
 ## Output

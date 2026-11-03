@@ -33,7 +33,7 @@ features:
 # Example: Default values
 defaults:
   # Labels to apply
-  labels: []  # e.g., ["automated", "project-toolkit"]
+  labels: []  # e.g., ["automated", "lanyant"]
 
   # Priority level
   priority: "medium"  # Options: "low", "medium", "high"

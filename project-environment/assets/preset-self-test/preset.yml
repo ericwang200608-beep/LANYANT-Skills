@@ -5,8 +5,8 @@
     "name": "Self-Test Preset",
     "version": "1.0.0",
     "description": "Overrides all core templates for isolated resolution tests",
-    "author": "github",
-    "repository": "https://github.com/your-org/project-preset",
+    "author": "LANYANT",
+    "repository": "https://github.com/ericwang200608-beep/LANYANT-Skills",
     "license": "MIT"
   },
   "requires": {

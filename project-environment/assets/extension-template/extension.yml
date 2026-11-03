@@ -25,17 +25,17 @@ extension:
   author: "Your Name"
 
   # CUSTOMIZE: GitHub repository URL (create before publishing)
-  repository: "https://github.com/your-org/project-toolkit-my-extension"
+  repository: "https://github.com/your-org/lanyant-my-extension"
 
   # REVIEW: License (MIT is recommended for open source)
   license: "MIT"
 
   # CUSTOMIZE: Extension homepage (can be same as repository)
-  homepage: "https://github.com/your-org/project-toolkit-my-extension"
+  homepage: "https://github.com/your-org/lanyant-my-extension"
 
 # Requirements for this extension
 requires:
-  # CUSTOMIZE: Minimum project-toolkit version required
+  # CUSTOMIZE: Minimum lanyant version required
   # Use >=X.Y.Z for minimum version
   # Use >=X.Y.Z,<Y.0.0 for version range
   toolkit_version: ">=0.1.0"

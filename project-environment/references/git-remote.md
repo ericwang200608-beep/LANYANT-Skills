@@ -7,7 +7,7 @@ Detect the Git remote URL for integration with GitHub services (e.g., issue crea
 - Check if Git is available by running `git rev-parse --is-inside-work-tree 2>/dev/null`
 - If Git is not available, output a warning and return empty:
   ```
-  [specify] Warning: Git repository not detected; cannot determine remote URL
+  [lanyant] Warning: Git repository not detected; cannot determine remote URL
   ```
 
 ## Execution
@@ -22,8 +22,8 @@ git config --get remote.origin.url
 
 Parse the remote URL and determine:
 
-1. **Repository owner**: Extract from the URL (e.g., `github` from `https://github.com/github/LANYANT.git`)
-2. **Repository name**: Extract from the URL (e.g., `LANYANT` from `https://github.com/github/LANYANT.git`)
+1. **Repository owner**: Extract from the URL (e.g., `ericwang200608-beep` from `https://github.com/ericwang200608-beep/LANYANT-Skills.git`)
+2. **Repository name**: Extract from the URL (e.g., `LANYANT-Skills` from `https://github.com/ericwang200608-beep/LANYANT-Skills.git`)
 3. **Is GitHub**: Whether the remote points to a GitHub repository
 
 Supported URL formats:

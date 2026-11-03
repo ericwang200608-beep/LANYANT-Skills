@@ -145,8 +145,8 @@ MIT License - see LICENSE file
 
 ## Support
 
-- **Issues**: <https://github.com/your-org/project-toolkit-my-extension/issues>
-- **the project toolkit Docs**: <https://github.com/statsperform/project-toolkit>
+- **Issues**: <https://github.com/your-org/lanyant-my-extension/issues>
+- **LANYANT guidance**: [extension authoring](../../references/extension-authoring.md)
 
 ## Changelog
 
@@ -155,4 +155,4 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 ---
 
 *Extension Version: 1.0.0*
-*the project toolkit: >=0.1.0*
+*LANYANT: >=0.1.0*
